@@ -8,7 +8,7 @@ with open("my_model.pkl", "rb") as model_file:
 
 # 🎨 Streamlit UI
 st.title("🌤️ Next-Day Temperature Prediction App")
-st.markdown("#### Enter the weather features and get AI-powered temperature forecasts!")
+st.markdown("#### Enter the weather features and get AI-powered temperature forecasts! SUI")
 
 # 📌 User Input Fields
 Present_Tmax = st.number_input("🌡️ Present Maximum Temperature (°C)", min_value=15.0, max_value=40.0, value=30.0)
